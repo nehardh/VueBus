@@ -1,0 +1,49 @@
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(300deg, #712cf9, #efeaeb, rgb(68, 123, 232));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+.head ,h1{
+  color: black;
+ font-weight: 300;
+ /* background-color: black; */
+}
+.btn{
+  text-decoration: none;
+  color: rgb(60, 123, 216);
+}
+.bi-person{
+
+  margin: 0px 14px;
+}
+.svg{
+  height: 30px;
+  width: 30px;
+  margin:2px 15px;
+ 
+}
+.d-block{
+padding: 5px 0px;
+}

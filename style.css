@@ -1,0 +1,139 @@
+body {
+  background: linear-gradient(300deg, #712cf9, #efeaeb, rgb(68, 123, 232));
+  background-size: 180% 180%;
+  margin: 0;
+  padding: 0;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.heading{
+  font-size: 3.6rem;
+
+}
+.login{
+  color:black;
+  text-decoration: none;
+}
+.lead{
+  font-size: 1.5rem;
+  font-weight:450;
+}
+.bus_logo{
+  margin-right:30px ;
+}
+.bus_logo{
+  margin-top: 18px;
+}
+.bus_logo:hover{
+  height: 42px;
+  transition: 0.5s;
+}
+.btn{
+  box-shadow: 1px 1px 2px;
+  box-shadow:50%;
+}
+.btn:hover{
+  height:57px ;
+  transition: 9s;
+  
+}
+.preview{
+  margin: 10px;
+}
+.middle_logo:hover{
+  height: 59px;
+  width: 75px;
+  transition: 0.3s;
+}
+.booknow:hover{
+  height: 39px;
+  transition:8ms;
+}
+.booknow{
+  text-decoration: none;
+}
+.signupBtn {
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 13px;
+  gap: 9px;
+  color: white;
+  background: linear-gradient(300deg, #712cf9, rgb(68, 123, 232));
+  position: relative;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.212);
+  font-weight: 600;
+}
+
+.arrow {
+  position: absolute;
+  right: 7.5px;
+  background-color: rgb(255, 255, 255);
+  width: 18px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  transition: all .5s ease;
+
+}
+
+.signupBtn:hover .arrow {
+  width: calc(120px - (7.5px)*2);
+}
+/* cards */
+.card {
+  box-sizing: border-box;
+  width: 360px;
+  height: 280px;
+  background: linear-gradient(300deg, #cfbdf3, rgb(191, 207, 239));
+  border: 1px solid rgb(185, 175, 243);
+  box-shadow: 6px 8px 25px rgb(133, 134, 134);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: none;
+  color: black;
+  padding:20px;
+}
+
+.card:hover {
+  border: 2px solid rgb(103, 144, 206);
+  transform: scale(1.05);
+}
+
+.card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+.head{
+  font-weight:600;
+ font-size:1.8rem;
+ color: black;
+}
+
+
+
+
